@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/shilpageo07/beginner-html-site-styled.git'
+                    url: 'https://github.com/shilpageo07/aws-devops-infrastructure-cicd.git'
             }
         }
 
